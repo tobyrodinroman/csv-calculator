@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/shalom.pel/Desktop/gitRepositories/csv-calculator/app/src/main/res/layout/activity_calculator.xml" value="0.18478260869565216" />
+=======
+        <entry key="..\:/Users/michelle.tedria/Desktop/csv-calculator/app/src/main/res/layout/activity_calculator.xml" value="0.25416666666666665" />
+>>>>>>> 908f5a6566b7f309098bd9332f50b4369fdb7dbc
         <entry key="..\:/Users/tobyrodin.roman/OneDrive - Magenic/Desktop/CognizantCalculator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.153" />
         <entry key="..\:/Users/tobyrodin.roman/OneDrive - Magenic/Desktop/CognizantCalculator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.153" />
         <entry key="..\:/Users/tobyrodin.roman/OneDrive - Magenic/Desktop/CognizantCalculator/app/src/main/res/layout/activity_calculator.xml" value="0.264" />
