@@ -74,6 +74,9 @@ class CalculatorActivity : AppCompatActivity() {
         if(currentOperation.equals("minus",true)){
             finalValue = firstNum - secondNum
         }
+        if(currentOperation.equals("multiply",true)){
+            finalValue = firstNum * secondNum
+        }
         tvOutput.text = finalValue.toString()
     }
 
