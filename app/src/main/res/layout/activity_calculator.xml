@@ -140,6 +140,7 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:padding="10dp"
+                android:backgroundTint="#1430CD"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:text="7"
@@ -152,6 +153,7 @@
                 android:padding="10dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:backgroundTint="#1430CD"
                 android:text="8"
                 />
 
@@ -162,6 +164,7 @@
                 android:padding="10dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:backgroundTint="#1430CD"
                 android:text="9"
                 />
 
@@ -172,6 +175,7 @@
                 android:padding="10dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
+                android:backgroundTint="#1430CD"
                 android:text="="
                 />
         </LinearLayout>
