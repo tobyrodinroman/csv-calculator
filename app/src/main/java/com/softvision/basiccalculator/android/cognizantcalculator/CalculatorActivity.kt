@@ -80,6 +80,10 @@ class CalculatorActivity : AppCompatActivity() {
         if(currentOperation.equals("divide",true)){
             finalValue = firstNum / secondNum
         }
+        if(currentOperation.equals("modulus",true)){
+            finalValue = firstNum % secondNum
+        }
+
         tvOutput.text = finalValue.toString()
     }
 
