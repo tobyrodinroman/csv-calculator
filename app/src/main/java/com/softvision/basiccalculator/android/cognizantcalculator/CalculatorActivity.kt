@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 
 class CalculatorActivity : AppCompatActivity() {
 
@@ -34,6 +35,7 @@ class CalculatorActivity : AppCompatActivity() {
 
         btnOne.setOnClickListener {
             inputNumber(1)
+            Toast.makeText(this@CalculatorActivity, "Button One is clicked", Toast.LENGTH_SHORT).show()
         }
 
         btnTwo.setOnClickListener {
