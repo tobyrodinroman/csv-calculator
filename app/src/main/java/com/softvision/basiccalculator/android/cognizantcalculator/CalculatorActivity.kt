@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import android.widget.Toast.LENGTH_LONG
 
 class CalculatorActivity : AppCompatActivity() {
 
@@ -49,7 +48,7 @@ class CalculatorActivity : AppCompatActivity() {
 
         btnAdd.setOnClickListener {
             doOperation("add")
-            Toast.makeText(this@CalculatorActivity, "Button add is clicked", LENGTH_LONG).show()
+            Toast.makeText(this@CalculatorActivity, "Button add is clicked", Toast.LENGTH_SHORT).show()
         }
 
         btnEquals.setOnClickListener {
