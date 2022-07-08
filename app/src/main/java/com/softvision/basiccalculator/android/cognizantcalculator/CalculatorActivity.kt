@@ -40,6 +40,8 @@ class CalculatorActivity : AppCompatActivity() {
 
         btnTwo.setOnClickListener {
             inputNumber(2)
+            Toast.makeText(this@CalculatorActivity, "Button Two is clicked", Toast.LENGTH_SHORT).show()
+
         }
 
         btnThree.setOnClickListener {
